@@ -1,5 +1,5 @@
-Docker Client and Docker Compose
+# WAT
 
-Sets up latest docker client AND docker-compose.
+Slim docker image to include docker-compose and the docker binary for remote docker operations. Can be used in CI tasks or anything to automate remote docker tasks, supports TLS
 
-Intended for remote execution usage over using docker tls.
+Includes the latest docker client AND docker-compose.
