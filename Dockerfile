@@ -1,4 +1,4 @@
 FROM docker:stable
 
-RUN apk add --no-cache bash curl py-pip \
-&& pip install docker-compose
+RUN apk add --update --no-cache ca-certificates bash build-base curl python-dev py-pip libevent-dev libffi-dev openssl-dev \
+  && pip install docker-compose
